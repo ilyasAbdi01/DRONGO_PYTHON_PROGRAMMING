@@ -11,4 +11,6 @@ for student_counter in range (len(students_arrival_time)):
         print("30 minutes late")
 
     else:
-        print("Zero marks")    
+        print("Zero marks") 
+
+           
