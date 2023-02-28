@@ -1,6 +1,11 @@
 def num():
     numbers = [12, 75, 150, 180, 145, 525, 50]
-    if (numbers % 5 == 0):
-        print(numbers)
+    for item in numbers:
+        if item > 500:
+            break
+        elif item > 150:
+            continue
+        elif item % 5 == 0:
+            print(item)
 
 num()        
